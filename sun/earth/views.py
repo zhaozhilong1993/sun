@@ -26,3 +26,8 @@ def contact(request):
     context          = {}
     context['hello'] = 'Hello World!'
     return render(request, 'contact.html', context)
+
+def properties(request):
+    context          = {}
+    context['hello'] = 'Hello World!'
+    return render(request, 'properties.html', context)

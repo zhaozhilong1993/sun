@@ -247,8 +247,8 @@ figure {
 .sf-menu ul {
   box-shadow: none;
   border: transparent;
-  min-width: 12em;
-  *width: 12em; }
+  min-width: 15em;
+  *width: 15em; }
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.5);

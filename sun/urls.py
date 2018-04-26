@@ -27,4 +27,7 @@ urlpatterns = patterns('',
 
     # web contact
     url(r'^contact/$', contact, name='contact'),
+
+    # web properties
+    url(r'^properties/$', properties, name='properties'),
 )
