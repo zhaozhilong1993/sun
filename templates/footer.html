@@ -1,61 +1,90 @@
 {% extends "header.html" %}
-   {% block content %}{% endblock %}
-   {% block footer %}
-        <footer>
-            <div id="footer">
+{% block footer %}
+            <footer id="contact" class="footer action-lage bg-black p-top-80">
+                <!--<div class="action-lage"></div>-->
                 <div class="container">
-                    <div class="row row-bottom-padded-md">
-                        <div class="col-md-3">
-                            <h3 class="section-title">关于 Homestate</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                        </div>
+                    <div class="row">
+                        <div class="widget_area">
+                            <div class="col-md-3">
+                                <div class="widget_item widget_about">
+                                    <h5 class="text-white">关于我们</h5>
+                                    <p class="m-top-20">我们的团队来自清华同方、阿里云、金山云等知名企业.拥有优秀的架构能力。加入我们，我们将带领您进入云计算的大门</p>
+                                    <div class="widget_brand m-top-40">
+                                        <a href="" class="text-uppercase">Your Logo</a>
+                                        <p>带领您进入云计算领域，给您一个不一样的人生。</p>
+                                    </div>
+                                    <ul class="list-inline m-top-30">
+                                        <li>-  <a href=""><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href=""><i class="fa fa-behance"></i></a></li>
+                                        <li><a href=""><i class="fa fa-dribbble"></i></a>  - </li>
+                                    </ul>
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
 
-                        <div class="col-md-3 col-md-push-1">
-                            <h3 class="section-title">链接</h3>
-                            <ul>
-                                <li><a href="#">课程资料</a></li>
-                                <li><a href="#">学员风采</a></li>
-                                <li><a href="#">新闻资讯</a></li>
-                                <li><a href="#">疑问解答</a></li>
-                            </ul>
-                        </div>
+                            <div class="col-md-3">
+                                <div class="widget_item widget_latest sm-m-top-50">
+                                    <h5 class="text-white">联系方式</h5>
 
-                        <div class="col-md-3">
-                            <h3 class="section-title">更多信息</h3>
-                            <ul>
-                                <li><a href="#">我们的团队</a></li>
-                                <li><a href="#">我们的优势</a></li>
-                                <li><a href="#">联系我们</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h3 class="section-title">我要报名</h3>
-                            <p>请输入您们的手机号</p>
-                            <form class="form-inline" id="fh5co-header-subscribe">
-                                <div class="row">
-                                    <div class="col-md-12 col-md-offset-0">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="phone" placeholder="输入您的手机号">
-                                            <button type="submit" class="btn btn-default"><i class="icon-paper-plane"></i></button>
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-phone"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">座机号 :</h6>
+                                            <p>+86 18401446550</p>
                                         </div>
                                     </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="fh5co-social-icons">
-                                <a href="#"><i class="icon-twitter2"></i></a>
-                                <a href="#"><i class="icon-facebook2"></i></a>
-                                <a href="#"><i class="icon-instagram"></i></a>
-                                <a href="#"><i class="icon-dribbble2"></i></a>
-                                <a href="#"><i class="icon-youtube"></i></a>
-                            </p>
-                            <p>Copyright 2018. All Rights Reserved. </p>
+                                    <div class="widget_ab_item m-top-30">
+                                        <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
+                                        <div class="widget_ab_item_text">
+                                            <h6 class="text-white">邮箱地址 :</h6>
+                                            <p>466539725@qq.com</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
+
+                            <div class="col-md-3">
+                                <div class="widget_item widget_service sm-m-top-50">
+                                    <h5 class="text-white">导航栏</h5>
+                                    <ul class="m-top-10">
+                                        <li class="m-top-20"><a href="#features"><i class="fa fa-angle-right"></i> 关于我们</a></li>
+                                        <li class="m-top-20"><a href="#business"><i class="fa fa-angle-right"></i> 教学体系</a></li>
+                                        <li class="m-top-20"><a href="#product"><i class="fa fa-angle-right"></i> 课程列表</a></li>
+                                        <li class="m-top-20"><a href="#team"><i class="fa fa-angle-right"></i> 我们的团队</a></li>
+                                        <li class="m-top-20"><a href="#contact"><i class="fa fa-angle-right"></i> 联系我们</a></li>
+                                    </ul>
+
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
+
+                            <div class="col-md-3">
+                                <div class="widget_item widget_newsletter sm-m-top-50">
+                                    <h5 class="text-white">关注我们</h5>
+                                    <form class="form-inline m-top-30">
+
+                                        <div class="widget_brand m-top-40">
+                                             <a href="" class="text-uppercase">二维码</a>
+                                             <p>带领您进入云计算领域，给您一个不一样的人生。</p>
+                                        </div>
+
+                                    </form>
+
+                                </div><!-- End off widget item -->
+                            </div><!-- End off col-md-3 -->
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-   {% endblock %}
+                <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
+                    <div class="col-md-12">
+                        <p class="wow fadeInRight" data-wow-duration="1s">
+                            穹顶之下
+                            <i class="fa fa-heart"></i>
+                            by Bootstrap Themes
+                            2016. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+{% endblock %}

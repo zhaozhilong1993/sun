@@ -1,36 +1,54 @@
 {% extends "base.html" %}
-    {% block header-top %}
-         <div id="fh5co-wrapper">
-                <div id="fh5co-page">
 
-                <header id="fh5co-header-section" class="sticky-banner">
-                        <div class="container">
-                                <div class="nav-header">
-                                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-                                        <h1 id="fh5co-logo"><a href="/"><i class="icon-home"></i>Home<span>state</span></a></h1>
-                                        <!-- START #fh5co-menu-wrap -->
-                                        <nav id="fh5co-menu-wrap" role="navigation">
-                                                <ul class="sf-menu" id="fh5co-primary-menu">
-                                                        <li class="active"><a href="/index">主页</a></li>
-                                                        <li>
-                                                                <a href="/properties" class="fh5co-sub-ddown">课程介绍</a>
-                                                                <ul class="fh5co-sub-menu">
-                                                                        <li><a href="#">Linux运维工程师(初级课程)</a></li>
-                                                                        <li><a href="#">Linux运维工程师(高级课程)</a></li>
-                                                                        <li><a href="#">前端开发</a></li>
-                                                                        <li><a href="#">Python工程师</a></li>
-                                                                </ul>
-                                                        </li>
-                                                        <li><a href="/agent">学员风采</a></li>
-                                                        <li><a href="/blog">最新咨询</a></li>
-                                                        <li><a href="/contact">联系我们</a></li>
-                                                </ul>
-                                        </nav>
-                                </div>
+    {% block header-top %}
+            <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
                         </div>
-                </header>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+
+
+                <div class="container">
+                    <div class="attr-nav">
+                        <ul>
+                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#brand">
+                            <img src="static/images/logo.png" class="logo" alt="">
+                            <!--<img src="static/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                        </a>
+
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- navbar menu -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">首页</a></li>
+                            <li><a href="#features">关于我们</a></li>
+                            <li><a href="#business">课程列表</a></li>
+                            <li><a href="#product">我们的学员</a></li>
+                            <li><a href="#team">我们的团队</a></li>
+                            <li><a href="#contact">联系我们</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+
+            </nav>
    {% endblock %}
 
                 <!-- end:header-top -->
-   {% block content %}{% endblock %}
-   {% block footer %}{% endblock %}

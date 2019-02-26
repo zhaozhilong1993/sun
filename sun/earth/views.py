@@ -11,23 +11,5 @@ def index(request):
     context['hello'] = 'Hello World!'
     return render(request, 'index.html', context)
 
-def agent(request):
-    context          = {}
-    context['hello'] = 'Hello World!'
-    return render(request, 'agent.html', context)
-
-def blog(request):
-    context          = {}
-    context['hello'] = 'Hello World!'
-    return render(request, 'blog.html', context)
-
-
-def contact(request):
-    context          = {}
-    context['hello'] = 'Hello World!'
-    return render(request, 'contact.html', context)
-
-def properties(request):
-    context          = {}
-    context['hello'] = 'Hello World!'
-    return render(request, 'properties.html', context)
+def savePhoneNum(request):
+    pass
